@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 175">
+<defs>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8bd3ff"/><stop offset=".32" stop-color="#4aa8ff"/><stop offset=".72" stop-color="#287ee8"/><stop offset="1" stop-color="#174ea6"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d9f1f4" stop-opacity=".88"/><stop offset=".35" stop-color="#718693" stop-opacity=".92"/><stop offset="1" stop-color="#17232c"/></linearGradient>
+ <radialGradient id="rim"><stop stop-color="#fafafa"/><stop offset=".55" stop-color="#cbd2d7"/><stop offset="1" stop-color="#737e86"/></radialGradient>
+</defs>
+<ellipse cx="211" cy="151" rx="175" ry="12" fill="#050509" opacity=".38"/>
+<!-- spoiler --> <path d="M301 36l50-5 17 7-12 8-55 1z" fill="#171b1f"/><path d="M318 44l6 14" stroke="#171b1f" stroke-width="6"/>
+<!-- body --> <path d="M35 115c8-28 26-42 58-50l69-20c24-7 58-9 91-4l53 8c26 4 45 15 61 35l22 28c7 9 8 20 1 29l-24 7H51c-18-5-23-18-16-33z" fill="url(#body)" stroke="#143f86" stroke-width="3"/>
+<!-- hood/front sculpt --> <path d="M36 115l66-16 55 2-17 27H34z" fill="#3f9bf2" opacity=".92"/><path d="M46 111l47-11 24 5-10 12-64 6z" fill="#18242a" opacity=".9"/>
+<!-- greenhouse --> <path d="M118 65l48-16c24-8 54-9 83-5l48 8 37 42H94c6-13 13-22 24-29z" fill="#121a20"/>
+<path d="M130 67l40-13c18-6 36-7 55-6v43H106c6-10 13-18 24-24z" fill="url(#glass)"/>
+<path d="M234 48c21 0 40 3 58 8l30 35h-88z" fill="url(#glass)"/>
+<!-- pillars / doors --> <path d="M229 48v76M329 92l-10 36M165 94l-8 35" stroke="#1f65bd" stroke-width="3"/><path d="M170 98h49M245 98h58" stroke="#2574d0" stroke-width="2"/><rect x="263" y="96" width="23" height="5" rx="2.5" fill="#164a94"/>
+<!-- lights/grille --> <path d="M45 111l48-10 22 6-15 11-58 7z" fill="#dff7ff" opacity=".82"/><path d="M42 128h70l-14 13H38z" fill="#10181d"/><path d="M355 105l31 10 5 18-36-3z" fill="#a9dcff" opacity=".72"/>
+<!-- lower aero --> <path d="M61 140h292" stroke="#10366f" stroke-width="8" stroke-linecap="round"/><path d="M51 144h45M349 144h35" stroke="#11161b" stroke-width="8" stroke-linecap="round"/>
+<!-- wheels -->
+<g transform="translate(117 137)"><circle r="31" fill="#11161b"/><circle r="22" fill="url(#rim)"/><circle r="7" fill="#59636a"/><g stroke="#7d878e" stroke-width="2"><path d="M0-20V20M-20 0H20M-14-14L14 14M14-14L-14 14M-7-19L7 19M19-7L-19 7"/></g><circle r="3" fill="#dfe4e7"/></g>
+<g transform="translate(326 137)"><circle r="31" fill="#11161b"/><circle r="22" fill="url(#rim)"/><circle r="7" fill="#59636a"/><g stroke="#7d878e" stroke-width="2"><path d="M0-20V20M-20 0H20M-14-14L14 14M14-14L-14 14M-7-19L7 19M19-7L-19 7"/></g><circle r="3" fill="#dfe4e7"/></g>
+<!-- highlights --> <path d="M77 88c61-31 164-48 252-22" fill="none" stroke="#c3e8ff" stroke-width="3" opacity=".55"/><path d="M156 126h117" stroke="#75bfff" stroke-width="2" opacity=".45"/>
+</svg>

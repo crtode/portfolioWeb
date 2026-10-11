@@ -2,241 +2,519 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cristina Tornero | Desarrolladora</title>
-
-    <link rel="stylesheet" href="00.normalize.css" />
-
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio de Cristina Tornero, estudiante de DAM y desarrolladora Full Stack."
+    />
+    <title>Cristina Tornero | Desarrolladora Full Stack</title>
     <link rel="stylesheet" href="estilos.css" />
-
-    <script src="00.modernizr.js"></script>
   </head>
-
   <body>
-    <header>
-      <p><strong>CT</strong> Cristina Tornero</p>
-
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#inicio"><span>CT</span> Cristina Tornero</a
+      ><button class="menu" aria-label="Abrir menú" aria-expanded="false">
+        ☰
+      </button>
       <nav>
-        <ul>
-          <li><a href="#inicio">INICIO</a></li>
-          <li><a href="#sobre-mi">SOBRE MÍ</a></li>
-          <li><a href="#habilidades">HABILIDADES</a></li>
-          <li><a href="#formacion">FORMACIÓN</a></li>
-          <li><a href="proyectos.html">PROYECTOS</a></li>
-          <li><a href="contacto.html">CONTACTO</a></li>
-        </ul>
+        <a href="#sobre-mi">Sobre mí</a><a href="#habilidades">Habilidades</a
+        ><a href="#formacion">Formación</a><a href="#proyectos">Proyectos</a
+        ><a href="#contacto">Contacto</a>
       </nav>
     </header>
-
     <main>
-      <section id="inicio" class="bloque">
-        <div class="texto">
-          <p>¡Hola! Soy</p>
-          <h1>Cristina Tornero</h1>
-          <h2 class="destacado">
-            Desarrolladora de Aplicaciones Multiplataforma
-          </h2>
-
-          <p>
-            Apasionada por la tecnología y el desarrollo de soluciones
-            creativas. En constante aprendizaje para seguir creciendo como
-            desarrolladora.
+      <section id="inicio" class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">¡Hola! Soy</p>
+          <h1>Cristina<br /><span>Tornero</span></h1>
+          <p class="role">
+            <span id="typed">Desarrolladora Full Stack</span
+            ><span class="caret">_</span>
           </p>
-
-          <div class="botones">
-            <a href="CV_CristinaTornero.pdf">Descargar CV</a>
-            <a href="contacto.html">Contáctame</a>
-          </div>
-        </div>
-
-        <div class="imagen">
-          <img
-            src="FotoCris.png"
-            alt="Foto de Cristina Tornero"
-            class="foto-principal"
-          />
-        </div>
-      </section>
-
-      <!-- SOBRE MI -->
-      <section id="sobre-mi" class="bloque inverso">
-        <div class="texto">
-          <h2>Sobre mí</h2>
-          <p>
-            Soy estudiante de Desarrollo de Aplicaciones Multiplataforma con una
-            gran pasión por la tecnología y la creatividad. Me encanta convertir
-            ideas en proyectos reales y seguir aprendiendo constantemente.
+          <p class="lead">
+            Me gusta empezar con una idea, abrir el editor y descubrir hasta
+            dónde puedo llevarla. Desarrollo aplicaciones, juegos y experiencias
+            web mientras sigo ampliando mi stack.
           </p>
-
-          <h3>Idiomas</h3>
-
-          <div class="skill">
-            <p>Español</p>
-            <div class="barra"><div class="nivel espanol"></div></div>
-          </div>
-
-          <div class="skill">
-            <p>Inglés</p>
-            <div class="barra"><div class="nivel ingles"></div></div>
-          </div>
-
-          <h3>Competencias</h3>
-
-          <div class="skill">
-            <p>Trabajo en equipo</p>
-            <div class="barra"><div class="nivel equipo"></div></div>
-          </div>
-
-          <div class="skill">
-            <p>Comunicación</p>
-            <div class="barra"><div class="nivel comunicacion"></div></div>
-          </div>
-        </div>
-
-        <div class="perfil-card">
-          <h3>Mi perfil</h3>
-
-          <p>Desarrollo de Aplicaciones Multiplataforma</p>
-          <p>📍 Valencia, España</p>
-          <p>🎓 Estudiante de DAM</p>
-
-          <div class="perfil-enlaces">
-            <a href="https://github.com/crtode" target="_blank">GitHub</a>
-            <a
-              href="https://www.linkedin.com/in/cristina-tornero-de-baro-393679344/"
-              target="_blank"
+          <div class="actions">
+            <a class="btn primary" href="#proyectos">Ver proyectos <b>↘</b></a
+            ><a class="btn ghost" href="CV_CristinaTornero.pdf" target="_blank"
+              >Descargar CV</a
             >
-              LinkedIn
-            </a>
+          </div>
+          <div class="mini-stack">
+            <span>C#</span><span>Unity</span><span>JavaScript</span
+            ><span>MySQL</span><span>Python</span><span>Java</span
+            ><span>React Native</span>
           </div>
         </div>
-      </section>
-
-      <!-- HABILIDADES -->
-      <section id="habilidades" class="bloque">
-        <div class="texto">
-          <h2>Habilidades</h2>
-
-          <div class="skill">
-            <p>HTML</p>
-            <div class="barra"><div class="nivel html"></div></div>
+        <div class="hero-visual">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="photo-wrap tilt">
+            <img src="FotoCris.png" alt="Cristina Tornero" /><span
+              class="status"
+              ><i></i> Abierta a nuevas oportunidades</span
+            >
           </div>
-
-          <div class="skill">
-            <p>CSS</p>
-            <div class="barra"><div class="nivel css"></div></div>
-          </div>
-
-          <div class="skill">
-            <p>JavaScript</p>
-            <div class="barra"><div class="nivel js"></div></div>
-          </div>
-
-          <div class="skill">
-            <p>MySQL</p>
-            <div class="barra"><div class="nivel mysql"></div></div>
-          </div>
-
-          <div class="skill">
-            <p>C#</p>
-            <div class="barra"><div class="nivel csharp"></div></div>
-          </div>
-        </div>
-
-        <div class="imagen">
-          <img src="fotoInformaticio.jpg" alt="Imagen de informática" />
-        </div>
-      </section>
-
-      <!-- FORMACION -->
-      <section id="formacion">
-        <div class="formacion-card">
-          <h2>Formación</h2>
-
-          <div class="formacion-container">
-            <div class="formacion-top">
-              <div class="timeline">
-                <div class="item">
-                  <div class="punto"></div>
-                  <strong>2025 - Actualidad</strong>
-                  <p>DAM - Florida - Catarroja</p>
-                </div>
-
-                <div class="item">
-                  <div class="punto"></div>
-                  <strong>2020 - 2023</strong>
-                  <p>Auxiliar veterinaria</p>
-                </div>
-
-                <div class="item">
-                  <div class="punto"></div>
-                  <strong>2017 - 2019</strong>
-                  <p>Bachillerato Humanístico</p>
-                </div>
-              </div>
-
-              <div class="preview-img">
-                <img src="cajeroUnity.png" alt="Proyecto cajero en Unity" />
-                <a href="proyectos.html" class="btn-proyectos">Ver proyectos</a>
-              </div>
+          <div
+            class="hero-code-stack"
+            aria-label="Tecnologías que forman parte de mi aprendizaje"
+          >
+            <div class="code-card code-csharp float">
+              <i></i><i></i><i></i><small>C# · Cristina.cs</small>
+              <pre><code><em>public class</em> Cristina {
+  string focus = <strong>"crear"</strong>;
+  bool learning = <strong>true</strong>;
+}</code></pre>
             </div>
+            <div class="code-card code-python float">
+              <i></i><i></i><i></i><small>Python · learning.py</small>
+              <pre><code>skills = [<strong>"lógica"</strong>, <strong>"práctica"</strong>]
+while learning:
+    skills.append(<strong>"Python"</strong>)</code></pre>
+            </div>
+            <div class="code-card code-js float">
+              <i></i><i></i><i></i><small>JavaScript · portfolio.js</small>
+              <pre><code>const portfolio = {
+  interactive: <strong>true</strong>,
+  keepBuilding: <strong>true</strong>
+};</code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sobre-mi" class="section reveal">
+        <div class="section-head">
+          <span>01 / SOBRE MÍ</span>
+          <h2>Una desarrolladora con un recorrido diferente.</h2>
+        </div>
 
-            <div class="extra-info">
-              <div class="bloque-info">
-                <h3>🎯 Objetivos</h3>
-                <p>
-                  Busco hacerme hueco en el sector tecnológico como programadora
-                  junior, aportando soluciones creativas y aprendiendo
-                  continuamente.
+        <div class="about-grid">
+          <article class="glass big">
+            <span class="card-kicker">MI HISTORIA</span>
+
+            <p>
+              Soy de Madrid, pero hace un tiempo decidí cambiar de escenario y
+              empezar una nueva etapa en Valencia.
+              <strong>
+                Siempre me ha gustado explorar, descubrir cosas nuevas y salir
+                de lo conocido </strong
+              >, y creo que esa curiosidad también define bastante mi forma de
+              enfrentarme a la programación.
+            </p>
+
+            <p>
+              Mi camino hasta llegar al desarrollo no ha sido lineal. He pasado
+              por ámbitos muy diferentes, he trabajado, he cambiado de ciudad y
+              he tenido que adaptarme más de una vez. Todo eso me ha enseñado a
+              <strong>
+                resolver problemas, organizarme, aprender rápido y no tener
+                miedo a empezar algo nuevo.
+              </strong>
+            </p>
+
+            <p>
+              Ahora esa misma forma de ser la llevo al código:
+              <strong>
+                investigar, probar, equivocarme, entender por qué y volver a
+                intentarlo hasta conseguir que funcione.
+              </strong>
+              Quiero seguir explorando, pero esta vez construyendo mi camino
+              como
+              <strong>desarrolladora Full Stack.</strong>
+            </p>
+
+            <div class="about-tags">
+              <span>curiosidad</span>
+              <span>adaptación</span>
+              <span>constancia</span>
+            </div>
+          </article>
+          <article class="glass fact visual-card valencia-card">
+            <div class="fact-content">
+              <small>Ahora</small>
+              <b>Valencia, España</b>
+              <span>📍 mi nueva etapa</span>
+            </div>
+          </article>
+          <article class="glass fact visual-card campus-card">
+            <div class="fact-content">
+              <small>Formación</small>
+              <b>DAM · Florida Universitària</b>
+              <span>🎓 donde construyo mi futuro</span>
+            </div>
+          </article>
+          <article class="glass fact goal-card">
+            <small>Mi siguiente reto</small>
+            <b>Seguir creciendo en el ámbito laboral</b>
+            <span>código · proyectos · aprendizaje</span>
+          </article>
+          <article class="glass fact looking-card">
+            <div>
+              <small>Lo que busco</small>
+              <b
+                >Un equipo con buen ambiente, donde aprender, aportar y seguir
+                creciendo</b
+              >
+              <em>colaboración · aprendizaje · nuevos retos</em>
+            </div>
+          </article>
+          <article class="glass terminal terminal-live">
+            <div class="terminal-top">
+              <span></span><span></span><span></span
+              ><small>cristina@portfolio</small>
+            </div>
+            <div
+              id="about-terminal"
+              class="typing-terminal"
+              aria-live="polite"
+            ></div>
+          </article>
+          <article class="mini-code glass">
+            <span>&lt;/&gt;</span>
+            <div>
+              <small>Actualmente</small
+              ><b id="mini-typed">construyendo proyectos</b
+              ><i class="caret">_</i>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section reveal">
+        <div class="section-head">
+          <span>02 / HABILIDADES</span>
+          <h2>Mi stack, conectado a lo que ya he construido.</h2>
+          <p>
+            No son solo etiquetas: toca una tecnología y mira cómo cambia el
+            entorno.
+          </p>
+        </div>
+        <div class="skills-stage">
+          <div class="skill-cloud" role="list">
+            <button class="skill-chip active" data-skill="C#">
+              <b>C#</b><small>lógica</small></button
+            ><button class="skill-chip" data-skill="Unity">
+              <b>Unity</b><small>experiencias</small></button
+            ><button class="skill-chip" data-skill="JavaScript">
+              <b>JavaScript</b><small>interacción</small></button
+            ><button class="skill-chip" data-skill="HTML / CSS">
+              <b>HTML / CSS</b><small>interfaces</small></button
+            ><button class="skill-chip" data-skill="MySQL">
+              <b>MySQL</b><small>datos</small></button
+            ><button class="skill-chip" data-skill="Git / GitHub">
+              <b>Git / GitHub</b><small>versionado</small></button
+            ><button class="skill-chip learning" data-skill="Python">
+              <b>Python</b><small>aprendiendo ahora</small></button
+            ><button class="skill-chip learning" data-skill="Java">
+              <b>Java</b><small>aprendiendo ahora</small></button
+            ><button class="skill-chip learning" data-skill="React Native">
+              <b>React Native</b><small>aprendiendo ahora</small>
+            </button>
+          </div>
+          <div class="skill-console glass">
+            <div class="console-head">
+              <span>● ● ●</span><small id="skill-file">Cristina.cs</small>
+            </div>
+            <div class="skill-main">
+              <div>
+                <small>TECNOLOGÍA SELECCIONADA</small>
+                <h3 id="skill-title">C#</h3>
+                <p id="skill-text">
+                  Mi lenguaje principal en los proyectos desarrollados con
+                  Unity. Lo he usado para lógica, interacción, estados y
+                  mecánicas.
                 </p>
-              </div>
-
-              <div class="bloque-info">
-                <h3>🏆 Logros</h3>
-                <ul>
-                  <li>Desarrollo de aplicaciones funcionales en Unity</li>
-                  <li>Implementación de lógica en C#</li>
-                  <li>Uso de bases de datos MySQL</li>
-                </ul>
-              </div>
-
-              <div class="bloque-info">
-                <h3>💻 Tecnologías</h3>
-                <div class="tech">
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>JavaScript</span>
-                  <span>C#</span>
-                  <span>Unity</span>
-                  <span>MySQL</span>
+                <div id="skill-projects" class="tags">
+                  <span>Guess Mew</span><span>Memory</span
+                  ><span>Flappy bird</span><span>Agenda</span><span>Cajero</span
+                  ><span>Calculadora</span>
                 </div>
               </div>
+              <pre id="skill-code"><code>public class Cristina : Developer {
+  string language = "C#";
+  bool building = true;
+}</code></pre>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="formacion" class="section reveal">
+        <div class="section-head">
+          <span>03 / MI RECORRIDO</span>
+          <h2>No empecé en programación. Llegué hasta ella.</h2>
+          <p>
+            Un recorrido distinto que hoy suma a la desarrolladora que estoy
+            construyendo.
+          </p>
+        </div>
+        <div class="journey-wrap">
+          <div class="journey-line">
+            <div class="journey-progress"></div>
+            <div class="car" aria-hidden="true">
+              <img src="ford-focus-illustration.svg" alt="" />
+            </div>
+          </div>
+          <div class="journey">
+            <article data-step="0">
+              <time>2017 — 2019</time>
+              <h3>Bachillerato Humanístico</h3>
+              <p>La primera etapa de mi formación.</p>
+              <div class="stage-deco"><span>✎</span><span>ABC</span></div>
+            </article>
+            <article data-step="1">
+              <time>2020 — 2023</time>
+              <h3>Área veterinaria</h3>
+              <p>
+                Formación como auxiliar de veterinaria y auxiliar de quirófano,
+                una etapa que reforzó mi responsabilidad, el trato con personas
+                y con animales.
+              </p>
+              <div class="stage-deco">
+                <span>🐈</span><span>♡</span><span>🐕</span>
+              </div>
+            </article>
+            <article data-step="2">
+              <time>2020 — 2025</time>
+              <h3>Experiencia profesional</h3>
+              <p>
+                Administración, contabilidad, atención al público y gestión.
+                Aprendí a organizar, comunicar y resolver problemas en entornos
+                reales, así como todo el entorno Office.
+              </p>
+              <div class="stage-deco">
+                <span>€</span><span>✓</span><span>▤</span>
+              </div>
+            </article>
+            <article class="current" data-step="3">
+              <time>2025 — Actualidad</time>
+              <h3>DAM · Florida Universitària</h3>
+              <p>
+                C#, Unity, JavaScript, HTML, CSS, MySQL, Git, GitHub, Python,
+                Java y React Native.
+              </p>
+              <div class="stage-deco">
+                <span>C#</span><span>{ }</span><span>git</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section projects reveal">
+        <div class="section-head">
+          <span>04 / PROYECTOS</span>
+          <h2>Lo importante no es decir que programo.<br />Es enseñarlo.</h2>
+          <p>Haz clic en cualquier proyecto para ver una demo real.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project featured tilt" data-project="guess">
+            <div class="project-media">
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                src="JugandoGuessMew(1).mp4"
+              ></video
+              ><span>Proyecto destacado</span>
+            </div>
+            <div class="project-copy">
+              <small>01</small>
+              <h3>Guess Mew</h3>
+              <p>
+                Proyecto orientado al cuidado y gestión de mascotas, combinando
+                desarrollo de aplicación y tecnologías web.
+              </p>
+              <div class="tags">
+                <span>C#</span><span>Unity</span><span>MySQL</span
+                ><span>JavaScript</span>
+              </div>
+              <button>Ver demo ↗</button>
+            </div>
+          </article>
+          <article class="project tilt" data-project="memory">
+            <div class="project-media">
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                src="JugandoMemory(1).mp4"
+              ></video>
+            </div>
+            <div class="project-copy">
+              <small>02</small>
+              <h3>Memory</h3>
+              <p>
+                Juego de memoria con lógica de emparejamiento y control de
+                intentos.
+              </p>
+              <div class="tags"><span>C#</span><span>Unity</span></div>
+              <button>Ver demo ↗</button>
+            </div>
+          </article>
+          <article class="project tilt" data-project="floppi">
+            <div class="project-media">
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                src="JugandoFloppiBird(1).mp4"
+              ></video>
+            </div>
+            <div class="project-copy">
+              <small>03</small>
+              <h3>Flappy Bird</h3>
+              <p>
+                Videojuego 2D con puntuación, obstáculos y detección de
+                colisiones.
+              </p>
+              <div class="tags"><span>C#</span><span>Unity</span></div>
+              <button>Ver demo ↗</button>
+            </div>
+          </article>
+          <article class="project tilt" data-project="agenda">
+            <div class="project-media small">
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                src="JugandoAgenda(1).mp4"
+              ></video>
+            </div>
+            <div class="project-copy">
+              <small>04</small>
+              <h3>Agenda</h3>
+              <p>Aplicación de gestión desarrollada en Unity.</p>
+              <div class="tags"><span>C#</span><span>Unity</span></div>
+              <button>Ver demo ↗</button>
+            </div>
+          </article>
+          <article class="project tilt" data-project="cajero">
+            <div class="project-media small">
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                src="JugandoCajero(1).mp4"
+              ></video>
+            </div>
+            <div class="project-copy">
+              <small>05</small>
+              <h3>Cajero automático</h3>
+              <p>Simulación de ingresos, retiradas y consulta de saldo.</p>
+              <div class="tags"><span>C#</span><span>Unity</span></div>
+              <button>Ver demo ↗</button>
+            </div>
+          </article>
+          <article class="project tilt" data-project="calculadora">
+            <div class="project-media small">
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                src="JugandoCalculadora(1).mp4"
+              ></video>
+            </div>
+            <div class="project-copy">
+              <small>06</small>
+              <h3>Calculadora</h3>
+              <p>Operaciones matemáticas y control de errores.</p>
+              <div class="tags"><span>C#</span><span>Unity</span></div>
+              <button>Ver demo ↗</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact reveal">
+        <div class="contact-intro">
+          <span class="eyebrow">05 / CONTACTO</span>
+          <h2>¿Construimos algo?</h2>
+          <p>
+            Estoy buscando mi primera oportunidad como desarrolladora junior. Si
+            mi perfil encaja con tu equipo, me encantará hablar contigo.
+          </p>
+          <div class="contact-code">
+            <span>&gt;</span><b>connect_with_me()</b><i class="caret">_</i>
+          </div>
+        </div>
+        <div class="contact-cards">
+          <a
+            class="contact-card mail"
+            href="mailto:cristina.tornero.de.baro@gmail.com"
+            ><div class="contact-logo">✉</div>
+            <div>
+              <small>EMAIL</small><b>cristina.tornero.de.baro@gmail.com</b>
+              <p>Escríbeme directamente</p>
+            </div>
+            <span>↗</span>
+            <div class="contact-preview">
+              <strong>Nuevo mensaje</strong><em>Para: Cristina Tornero</em>
+              <p>Hola Cristina, hemos visto tu portfolio...</p>
+            </div></a
+          >
+          <a
+            class="contact-card github"
+            href="https://github.com/crtode"
+            target="_blank"
+            rel="noreferrer"
+            ><div class="contact-logo">GH</div>
+            <div>
+              <small>GITHUB</small><b>@crtode</b>
+              <p>Repositorios y código</p>
+            </div>
+            <span>↗</span>
+            <div class="contact-preview">
+              <strong>crtode / repositories</strong
+              ><em>Memory · GuessMew · Flappy Bird</em>
+              <div class="commit"><i></i><i></i><i></i><i></i><i></i></div></div
+          ></a>
+          <a
+            class="contact-card linkedin"
+            href="https://www.linkedin.com/in/cristina-tornero-de-baro-393679344/"
+            target="_blank"
+            rel="noreferrer"
+            ><div class="contact-logo">in</div>
+            <div>
+              <small>LINKEDIN</small><b>Cristina Tornero</b>
+              <p>Perfil profesional</p>
+            </div>
+            <span>↗</span>
+            <div class="contact-preview">
+              <strong>Cristina Tornero</strong
+              ><em>Junior Software Developer · DAM</em>
+              <p>C# · Unity · JavaScript · MySQL</p>
+            </div></a
+          >
         </div>
       </section>
     </main>
-
     <footer>
-      <ul>
-        <li>
-          <a href="https://github.com/crtode">
-            <img src="GitHub.png" alt="GitHub" />
-          </a>
-        </li>
-        <li>
-          <a href="https://linkedin.com">
-            <img src="LinkedIn.png" alt="LinkedIn" />
-          </a>
-        </li>
-        <li>
-          <a href="mailto:cristina.tornero.de.baro@gmail.com">
-            <img src="Email.png" alt="Email" />
-          </a>
-        </li>
-      </ul>
-
-      <p>© 2026 Cristina Tornero</p>
+      <a class="brand" href="#inicio"><span>CT</span></a>
+      <p>Diseñado y desarrollado por Cristina Tornero · 2026</p>
+      <a href="#inicio">Volver arriba ↑</a>
     </footer>
+    <div class="modal" aria-hidden="true">
+      <button class="modal-close" aria-label="Cerrar">×</button>
+      <div class="modal-box">
+        <div class="modal-video"><video controls playsinline></video></div>
+        <div class="modal-info">
+          <small>DEMO DEL PROYECTO</small>
+          <h2></h2>
+          <p></p>
+          <div class="tags"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
