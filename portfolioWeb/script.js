@@ -251,7 +251,7 @@ function closeModal() {
   mv.load();
   document.body.style.overflow = "";
 }
-$$(".project").forEach((p) => {
+$$(".project[data-project]").forEach((p) => {
   p.addEventListener("click", () => openProject(p.dataset.project));
   const v = $("video", p);
   if (v) {
