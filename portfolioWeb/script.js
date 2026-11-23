@@ -192,6 +192,12 @@ function demoSkills() {
 }
 // Datos de los proyectos para abrirlos en el modal
 const projects = {
+  tienda: {
+    title: "Tienda navideña para peludos",
+    desc: "Tienda instalable para mascotas con buscador, catálogo y carrito.",
+    tags: ["TypeScript", "Vite", "PWA", "Node.js", "Express", "MySQL"],
+    video: "tienda.mp4",
+  },
   guess: {
     title: "Guess Mew",
     desc: "Aplicación orientada al cuidado y gestión de mascotas, con perfiles personalizados y diferentes funcionalidades.",
@@ -251,7 +257,7 @@ function closeModal() {
   mv.load();
   document.body.style.overflow = "";
 }
-$$(".project[data-project]").forEach((p) => {
+$$(".project[data-project], .project-copy button[data-project]").forEach((p) => {
   p.addEventListener("click", () => openProject(p.dataset.project));
   const v = $("video", p);
   if (v) {

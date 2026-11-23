@@ -2546,14 +2546,3 @@ footer > a {
   border: 1px solid var(--line);
   border-radius: 12px;
 }
-.project-copy .project-link {
-  display: inline-block;
-  margin-top: 22px;
-  color: #fff;
-  font-size: 0.8125rem;
-  text-decoration: none;
-}
-.project-link:hover,
-.project-link:focus-visible {
-  text-decoration: underline;
-}
